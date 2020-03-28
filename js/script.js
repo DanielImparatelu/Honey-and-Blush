@@ -22,6 +22,17 @@ $(document).ready(function(){
 
     $('.gallery-wrapper').find('.photo-wrapper').animate('fadeIn', 400);
 
+    
+    $(window).scroll(function(){
+        var y = $(this).scrollTop();
+        if(y > 100){
+            $('.logo-image').fadeOut();
+        }
+        else{
+            $('.logo-image').fadeIn();
+        }
+    });
+
 
     var homepageImages = 6;
     function insertHomepageImages(){

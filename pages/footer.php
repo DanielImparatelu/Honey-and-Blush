@@ -18,15 +18,11 @@
 
                 <section class="footer-buttons-container">
                         <ul class="buttons-list">
-                            <li class="btn btn-light custom-btn">Home</li>
-                            <li class="btn btn-light custom-btn">Gallery</li>
-
-                            <li class="btn btn-light custom-btn">Bookings</li>
-                            <li class="btn btn-light custom-btn ">Prices</li>
-                            <li class="btn btn-light custom-btn ">Offers</li>
-
-                            <li class="btn btn-light custom-btn">After Care</li>
                             <li class="btn btn-light custom-btn">About</li>
+                            <li class="btn btn-light custom-btn">Products</li>
+                            <li class="btn btn-light custom-btn ">Offers</li>
+                            <li class="btn btn-light custom-btn ">Contact</li>
+                            <li class="btn btn-light custom-btn">After Care</li>
                             <li class="btn btn-light custom-btn ">FAQ's</li>
                         </ul>
 
@@ -34,27 +30,36 @@
             </div>
             <div class="footer-social-wrapper">
                 <ul class="social-wrap">
+                    
+                <li class = "gmail"><a href="mailto:danielfapstoletsplays@gmail.com?Subject=Contact%20Inquiry" target="_top">
+                        <!-- <img src="../images/sociallogos/gmail1.svg"> -->
+                        <i class="material-icons">gmail</i>
+                    </a></li>
                     <!-- Icons made by Pixel Perfect and Freepik
                         Source: flaticon.com -->
                     <li class="facebook"><a href="https://www.facebook.com/honeyandblushxo/" target="_blank">
-                        <img src = "../images/sociallogos/facebook.svg">    
+                        <!-- <img src = "../images/sociallogos/facebook.svg">     -->
+                        <i class="fab fa-facebook"></i>
                     </a></li>
                     <li class = "twitter"><a href="https://twitter.com/fapstoletsplays" target="_blank">
-                        <img src="../images/sociallogos/twitter1.svg">
+                        <!-- <img src="../images/sociallogos/twitter1.svg"> -->
+                        <i class="fab fa-twitter" > </i>
                     </a></li>
-                    <li class = "gmail"><a href="mailto:danielfapstoletsplays@gmail.com?Subject=Contact%20Inquiry" target="_top">
-                        <img src="../images/sociallogos/gmail1.svg">
-                    </a></li>
+                   
                     <li class = "instagram"><a href="https://www.instagram.com/_honeyandblush_/" target="_blank">
-                        <img src = "../images/sociallogos/insta1.svg">
+                        <!-- <img src = "../images/sociallogos/insta1.svg"> -->
+                        <i class="fab fa-instagram" > </i>
                     </a></li>
+
                 </ul>
             </div>
         </div>
     </div>
-  
+   
 </section> 
-<div class="separator"></div>
- <div class="footer-extra" style = "text-align: center; background-color: rgba(255, 255, 255, 0.9);">
-        <h3> Created by Daniel Imparatelu </h3>
-    </div>
+<div class="footer-extra">
+
+        <p>&#169; Honey and Blush 2020 </p>
+        <span> Made with <i class="fa fa-heart beating-heart" aria-hidden="true"></i> by Daniel Imparatelu </span>
+</div>
+ 

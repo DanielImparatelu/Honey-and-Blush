@@ -27,7 +27,7 @@ li {
 }
 
 .header {
-    width: 96%;
+    width: 100%;
     height: 4rem;
     background-color: #fff;
     opacity: 0.8;
@@ -41,6 +41,7 @@ li {
     margin-right: 8px;
     max-width: 9rem;
     display: inline-block;
+    margin-left: 5%;
 }
 
 .logo-image {
@@ -71,12 +72,12 @@ li {
     border-radius: 8px;
     min-height: 4rem;
     width: auto;
-    margin: 0 10%;
+  //  margin: 0 10%;
     display: block;
 }
 
 #navbar {
-    margin-right: 4.5%;
+ //   margin-right: 4.5%;
     display: inline-block;
 }
 
@@ -158,7 +159,7 @@ li {
     .slider-right {
         float: right;
         height: 88.5%;
-        right: 25px;
+        right: 0px;
         bottom: 2.4%;
     }
 }
@@ -226,7 +227,7 @@ li {
 
     &:nth-of-type(odd){
         //float:right;
-        background-color: rgba(255, 255, 255, 0.5);
+        background-color: $default-white-transparent;
         min-height:290px;
 
         
@@ -278,11 +279,12 @@ li {
 .custom-footer{
     margin-top: 1rem;
     //background-color: rgba(46, 1, 7, 0.644);
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: $default-white-transparent;
  //  background-color: rgba(224, 17, 95, 0.8);
 }
 .footer-buttons-container{
     column-count: 2;
+    margin-top: 2rem;
     .buttons-list{
         display:grid;
         grid-column-gap: 20px;
@@ -294,12 +296,51 @@ li {
     }
 }
 .footer-social-wrapper{
+    margin: auto 0;
     .social-wrap{
         li, img{
             max-width: 2rem;
             max-height: 2rem;
+            
+        }
+        li a{
+            display: inline-block;
+            height: 30px;
+        }
+        svg, path{
+            height: 30px;
+            width: 30px;
+            fill: $default-pink-color;
+
+            &:hover{
+                fill: $default-pink-color-hover;
+            }
+        }
+        i.material-icons{
+            font-size: 2rem;
+            position: relative;
+            top: 2px;
+            left: -30px;
+            color: $default-pink-color;
+            
+            &:hover{
+                color: $default-pink-color-hover;
+            }
         }
     }
+}
+.footer-extra{
+    text-align: center; 
+    font-family: $default-font-family;
+    //background-color: rgba(255, 255, 255, 0.6);
+    background-color: $default-white-transparent;
+    border-top: 2px solid #000
+}
+
+
+.beating-heart {
+  //background-color: red;
+  animation: heartbeat 2s infinite;
 }
 
 * {
@@ -415,4 +456,34 @@ ol {
     .slider .buttom-circles .buttom-circles-list {
         font-size: 25px
     }
+}
+
+//animations
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
 }

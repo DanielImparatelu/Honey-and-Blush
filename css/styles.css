@@ -4,6 +4,7 @@
 /*gallery before/after*/
 /*homepage images*/
 /*font families*/
+/* colours n shit */
 html,
 body {
   font-family: "Century Gothic";
@@ -29,7 +30,7 @@ li {
 }
 
 .header {
-  width: 96%;
+  width: 100%;
   height: 4rem;
   background-color: #fff;
   opacity: 0.8;
@@ -43,6 +44,7 @@ li {
   margin-right: 8px;
   max-width: 9rem;
   display: inline-block;
+  margin-left: 5%;
 }
 
 .logo-image {
@@ -73,12 +75,10 @@ li {
   border-radius: 8px;
   min-height: 4rem;
   width: auto;
-  margin: 0 10%;
   display: block;
 }
 
 #navbar {
-  margin-right: 4.5%;
   display: inline-block;
 }
 
@@ -154,7 +154,7 @@ li {
 .slider-controls .slider-right {
   float: right;
   height: 88.5%;
-  right: 25px;
+  right: 0px;
   bottom: 2.4%;
 }
 
@@ -217,7 +217,7 @@ li {
   display: inline;
 }
 .card-wrapper:nth-of-type(odd) {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.6);
   min-height: 290px;
 }
 .card-wrapper:nth-of-type(odd) .photo {
@@ -262,6 +262,7 @@ li {
 
 .footer-buttons-container {
   column-count: 2;
+  margin-top: 2rem;
 }
 .footer-buttons-container .buttons-list {
   display: grid;
@@ -273,9 +274,45 @@ li {
   padding: 6px 12px !important;
 }
 
+.footer-social-wrapper {
+  margin: auto 0;
+}
 .footer-social-wrapper .social-wrap li, .footer-social-wrapper .social-wrap img {
   max-width: 2rem;
   max-height: 2rem;
+}
+.footer-social-wrapper .social-wrap li a {
+  display: inline-block;
+  height: 30px;
+}
+.footer-social-wrapper .social-wrap svg, .footer-social-wrapper .social-wrap path {
+  height: 30px;
+  width: 30px;
+  fill: #d75256;
+}
+.footer-social-wrapper .social-wrap svg:hover, .footer-social-wrapper .social-wrap path:hover {
+  fill: #f2ccc3;
+}
+.footer-social-wrapper .social-wrap i.material-icons {
+  font-size: 2rem;
+  position: relative;
+  top: 2px;
+  left: -30px;
+  color: #d75256;
+}
+.footer-social-wrapper .social-wrap i.material-icons:hover {
+  color: #f2ccc3;
+}
+
+.footer-extra {
+  text-align: center;
+  font-family: "Century Gothic";
+  background-color: rgba(255, 255, 255, 0.6);
+  border-top: 2px solid #000;
+}
+
+.beating-heart {
+  animation: heartbeat 2s infinite;
 }
 
 * {
@@ -384,6 +421,26 @@ ol {
 
   .slider .buttom-circles .buttom-circles-list {
     font-size: 25px;
+  }
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(0.75);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.75);
+  }
+  60% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(0.75);
   }
 }
 

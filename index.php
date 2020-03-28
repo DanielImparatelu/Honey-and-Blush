@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
     <link rel="stylesheet" href="fontawesome/css/solid.css">
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     <link rel="shortcut icon" href="fav.ico" />
 
     <script src="js/jquery.min.js"></script>
