@@ -1,3 +1,21 @@
-{
-    "homepageText1":"asd",
-}
+[{"questions": [
+    {"1" : "What are hair extensions?"}, 
+    {"2" : "Why do people have hair extensions?"}, 
+    {"3" : "Can anybody have hair extensions applied?"},
+    {"4" : "How long does my natural hair have to be?"}, 
+    {"5" : "Do you charge for consultations?"}, 
+    {"6" : "Is there anything I need to do prior to the consultation?"}, 
+    {"7" : "What can I expect at a consultation?"}, 
+    {"8" : "What are nano-tip hair extensions?"}, 
+    {"9" : "How are your nano-tip hair extensions applied?"}, 
+    {"10" : "How long does the application take?"}, 
+    {"11" : "Do hair extensions damage your hair?"},
+    {"12" : "Can I use heated styling appliances on my hair?"}
+    
+    ]
+}]
+
+
+[{"question" : "How long does the application take?"}, {"answer": "This varies greatly from client to client, ranging between 2-5 hours."}]
+
+'[{"name" : "Ashwin", "age" : "20"},{"name" : "Abhinandan", "age" : "20"}]';
