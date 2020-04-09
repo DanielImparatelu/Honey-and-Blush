@@ -315,6 +315,230 @@ li {
   animation: heartbeat 2s infinite;
 }
 
+.faq-wrapper {
+  margin-top: 8%;
+}
+
+.page-title-wrapper {
+  margin-bottom: 5%;
+}
+
+.row-wrapper {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+#pageloader {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 9999;
+}
+
+.colored-border {
+  border-color: #f69730 !important;
+}
+
+.loader-item {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  margin: -22px 0 0 -22px;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  background: white;
+  border-left: 4px solid;
+  border-right: 4px solid;
+  border-top: 4px solid;
+  border-bottom: 3px solid transparent !important;
+  border-radius: 22px;
+}
+
+.project-thumb {
+  overflow: hidden;
+  position: relative;
+  -webkit-backface-visibility: hidden;
+  /* Chrome, Safari, Opera */
+  backface-visibility: hidden;
+}
+
+.project-thumb img {
+  width: 100%;
+  min-height: 190px;
+}
+
+.project-slider {
+  display: none;
+  position: relative;
+  z-index: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .projects-holder-2 .filter-categories {
+    margin-bottom: 60px;
+  }
+
+  .projects-holder-2 .filter-categories ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
+.projects-holder-3 .filter-categories {
+  margin-bottom: 60px;
+}
+
+.projects-holder-3 .filter-categories ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.project-item {
+  overflow: hidden;
+  margin-bottom: 40px;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 12px;
+}
+
+.project-item .project-detail h2 {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0 0 10px 0;
+  display: block;
+}
+
+.project-item .project-detail h2 a {
+  color: #2c2c2c;
+}
+
+.project-item .project-detail h2 a:hover {
+  color: #f69730;
+}
+
+.project-item:hover .overlay-b {
+  opacity: 1;
+  visibility: visible;
+}
+
+.project-infos h2.project-title {
+  font-size: 2em;
+  font-weight: normal;
+}
+
+.project-infos span.project-subtitle {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.project-infos p {
+  margin: 30px 0;
+}
+
+.project-infos ul.project-meta {
+  border-top: 1px solid #d5d5d5;
+  border-bottom: 1px solid #d5d5d5;
+  display: inline-block;
+  padding: 12px 0;
+}
+
+.project-infos ul.project-meta li {
+  display: inline-block;
+  margin-right: 50px;
+  font-family: "Roboto Slab", serif;
+}
+
+.project-infos ul.project-meta li:last-child {
+  margin-right: 0;
+}
+
+.project-infos ul.project-meta li i {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .project-infos h2.project-title {
+    font-size: 1.6em;
+  }
+
+  .project-infos ul.project-meta li {
+    margin-bottom: 10px;
+  }
+
+  .project-infos ul.project-meta li:last-child {
+    margin-bottom: 0;
+  }
+}
+.overlay-b {
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  bottom: 0;
+  left: 0;
+}
+
+.overlay-b .overlay-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay-b .overlay-inner a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -18px;
+  margin-top: -18px;
+  border: 1px solid #d5d5d5;
+  width: 36px;
+  height: 36px;
+  display: block;
+  text-align: center;
+  line-height: 36px;
+  color: white !important;
+}
+
+.overlay-b .overlay-inner svg {
+  fill: #fff !important;
+  font-size: 30px !important;
+  color: #fff !important;
+  position: relative;
+  top: 45%;
+  left: 45%;
+}
+
+.overlay-b .overlay-inner a:hover {
+  color: #f69730;
+  border-color: #f69730;
+}
+
+.project-item:hover .overlay-b {
+  opacity: 1;
+  visibility: visible;
+}
+
+.post-masonry .blog-thumb:hover .overlay-b {
+  opacity: 1;
+  visibility: visible;
+}
+
+.overlay-s {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 9;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

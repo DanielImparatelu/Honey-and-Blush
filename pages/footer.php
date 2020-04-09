@@ -20,10 +20,10 @@
                         <ul class="buttons-list">
                             <li class="btn btn-light custom-btn">About</li>
                             <li class="btn btn-light custom-btn">Products</li>
-                            <li class="btn btn-light custom-btn ">Offers</li>
-                            <li class="btn btn-light custom-btn ">Contact</li>
+                            <li class="btn btn-light custom-btn">Offers</li>
+                            <li class="btn btn-light custom-btn">Contact</li>
                             <li class="btn btn-light custom-btn">After Care</li>
-                            <li class="btn btn-light custom-btn ">FAQ's</li>
+                            <li class="btn btn-light custom-btn" onclick = "window.location.href = 'pages/faq.php'">FAQ's</li>
                         </ul>
 
                     </section>

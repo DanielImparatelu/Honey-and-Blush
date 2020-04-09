@@ -33,17 +33,18 @@ $(document).ready(function(){
         }
     });
 
-
-    var homepageImages = 6;
-    function insertHomepageImages(){
-        for(let i=1; i<=homepageImages; i++){
-            $('.gallery-inside-wrapper').append('<div class="card-wrapper"> <div class="photo col-sm-1" style="background-image:url(&quot;../images/homepage/'+ i + '.jpg&quot;)"></div> <div class="col-sm-9"> <p class="photo-text">tests</p> </div></div>');
+    function insertHomepageImages(index){
+    
+        for(let i=1; i<=index; i++){
+            var url = '../images/homepage/' + i + '.jpg';
+            $('.gallery-inside-wrapper').append('<div class="card-wrapper"> <div class="photo col-sm-1" style="background-image:url(&quot;' + url + '&quot;)"></div> <div class="col-sm-9"> <p class="photo-text">tests</p> </div></div>');
         }
     }
-   // setTimeout(function(){
-        insertHomepageImages();
+    if(window.location.pathname == "/index.php"){
+        insertHomepageImages(6); //6 is the number of images we have to display. these images should be named as 1,2,3.jpg, etc.
         $('.photo-text').multiline('This is a longer paragraph in order for me to see how the card layout looks like with an image as well as a longer string of text. I also need to see how the text behaves when inserting a new line, as well as how it looks on mobile /screen resize. This is a new line with an indent. ');
- //   }, 500);
+    }
+        
 
 });
 

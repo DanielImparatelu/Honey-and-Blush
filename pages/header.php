@@ -1,4 +1,4 @@
-<?php include 'carousel.php'?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,6 +9,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Honey and Blush</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <script>window.jQuery || document.write('<script src="../js/jquery.min.js"><\/script>')</script>
+    <script src="../js/jquery.min.js"></script>
 
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
@@ -21,7 +24,7 @@
 
     <link rel="shortcut icon" href="fav.ico" />
 
-    <script src="../js/jquery.min.js"></script>
+    
     <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../fontawesome/js/fontawesome.min.js"></script>
     <script src="../fontawesome/js/all.min.js"></script>
@@ -44,9 +47,9 @@
                     <section class="navbar-buttons-container col-sm-8">
                         <ul class="buttons-list">
                             <li class="divider"></li>
-                            <li class="btn btn-light custom-btn">Home</li>
+                            <li class="btn btn-light custom-btn" onclick = "window.location.href='../index.php'">Home</li>
                             <li class="divider"></li>
-                            <li class="btn btn-light custom-btn">Gallery</li>
+                            <li class="btn btn-light custom-btn" onclick = "window.location.href = 'pages/gallery.php'">Gallery</li>
                             <li class="divider"></li>
 
 
@@ -63,7 +66,7 @@
                             <li class="divider"></li>
                             <li class="btn btn-light custom-btn">About</li>
                             <li class="divider"></li>
-                            <li class="btn btn-light custom-btn " onclick = "window.location.href='pages/faq.php'">FAQ's</li>
+                            <li class="btn btn-light custom-btn " onclick = "window.location.href='faq.php'">FAQ's</li>
                             <li class="divider"></li>
                         </ul>
 
